@@ -24,7 +24,7 @@ class china_hosts(object):
         self.city=city
         self.operator=operator        
 
-engine = create_engine('sqlite:///hosts.db')
+engine = create_engine('sqlite:///host.db')
 metadata=MetaData(engine)
 
 
